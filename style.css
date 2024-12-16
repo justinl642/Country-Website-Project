@@ -1,0 +1,50 @@
+/* External CSS */
+body{
+  font-family:arial;
+  /*margin:0 auto;  New */
+}
+a{
+  text-decoration:none;
+}
+/* Change #click_me to look like a button*/
+#click_me{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#click_me:hover{
+  color: red !important;
+}
+
+/* Change the color of the text of #click_me when you hover over it to white */
+
+
+/* CSS Specificity 
+   inline > id > class > element
+*/
+
+/* Start */
+/* Make #banner stand out */
+#banner{
+  background-image: url("indo.jpg");
+  background-color:black;
+  color:White;
+  text-align: center;
+  padding:10px;
+}
+
+
+nav a{
+	flex: 1;
+    padding: 20px;
+	color:black;
+	align-content:center;
+	justify-content:center;
+	text-align:center;
+}
+
+.container{
+	display:flex;
+}
+
